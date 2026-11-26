@@ -1,0 +1,20 @@
+Kamu agen FRESH untuk auto-join bounty make.fun GRATIS (sesi ini dimulai SETELAH bounty dibuka — penting untuk check thinking_in_window). Baca dulu skill ~/workspace/custom-skills/make_fun_build_resilience/SKILL.md dan ikuti resepnya sampai tuntas.
+
+BOUNTY: "Funniest Forecast for a City That Isn't"
+- Slug: u-eager-stork-81-9647-funniest-forecast-for-a-city-2a8769cf
+- Link: https://make.fun/bounty/u-eager-stork-81-9647-funniest-forecast-for-a-city-2a8769cf
+- Detail lengkap (brief + rules + submissions): ~/workspace/goals/pantau-bounty-baru-make-fun/hidden_files/detail-1440-u-eager-stork-81-9647-funniest-forecast-for-a-city-2a8769cf.json
+- Hadiah $2 winner takes all. GRATIS (entryFeeUsd null).
+- Entry: SATU baris, maks 120 karakter — ramalan cuaca paling lucu untuk kota yang tidak ada. Judge bandingkan berpasangan.
+- Buka 14:27 WIB, tutup 22:25 WIB hari ini (deadline 2026-11-26T15:25:00Z). Ronde 1 cutoff 17:06 WIB — submit SEBELUM itu.
+- 54 submission saat ditemukan. Judul submission yang sudah ada ada di file detail (cek keunikan: entry kamu TIDAK BOLEH sama/duplikat dengan yang sudah ada; verifikasi via GET https://make.fun/api/competitions/<slug> submissions[].title).
+- Repo baru: dian566/forecast-city-isnt
+
+ATURAN WAJIB:
+- Semua perintah CLI make.fun WAJIB diawali MAKEFUN_CREDENTIALS=~/.makefun/credentials.dian566 (akun dian566; default credentials = akun lain, JANGAN dipakai).
+- Submit WAJIB pakai keypair akun ~/workspace/makefun/btc-race-24h/dian566-keypair.json (wallet 52bYd1…). JANGAN PERNAH pakai ~/workspace/makefun/burner-dian566.json — seed-nya terexpos di repo publik, keypair itu TERKOMPROMI.
+- SETELAH buat repo GitHub, LANGSUNG isi About repo: homepage = URL bounty di atas, topics = makefun (ini mencegah penolakan submit 422 repo_about yang sudah 3x terjadi hari ini). Jangan submit sebelum About terisi.
+- main.py tulis ≥2 pesan dengan edit konten NYATA (bukan byte-identik), jangan commit folder kit, badge pakai format yang benar sesuai skill.
+- Jangan bayar fee apa pun. Kalau submit mentok (mis. execution-risk check / penolakan server), BERHENTI di titik itu dan laporkan persis apa blocker-nya — jangan diakali lewat jalur lain, jangan klaim sudah submit kalau belum.
+
+LAPORAN AKHIR (balasanmu): entry final + jumlah karakter + hasil cek keunikan, repo + commit, hasil bundle/check lokal, dan HASIL SUBMIT: submission id + claim code + status CLI, ATAU blocker persisnya kalau gagal.
